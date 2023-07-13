@@ -1,0 +1,248 @@
+.container {
+  padding: 0;
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titletext {
+  max-width: 914px;
+  margin-top: 12px;
+  color: white;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.text,
+.introducetext1,
+.introducetext2,
+.healthtext1,
+.healthtext2 {
+  max-width: 862px;
+  margin-top: 12px;
+  color: white;
+  line-height: 1.2;
+}
+
+.introducetext1,
+.introducetext2 {
+  font-size: 30px;
+}
+
+.healthtext1 {
+  font-weight: 400;
+  color: black;
+  font-size: 40px;
+  max-width: 580px;
+}
+
+.healthtext2 {
+  font-weight: 200;
+  color: black;
+  font-size: 30px;
+  max-width: 530px;
+}
+
+.header {
+  padding: 320px 370px 450px;
+  background-image: url(/header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.introduce {
+  padding: 80px 120px;
+  background-image: url(/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.about {
+  background-image: url(/about.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.founder {
+  align-items: center;
+  justify-content: center;
+}
+
+.founderintro {
+  height: 234px;
+  padding: 32px 72px;
+  border-right: 3px solid #42a2da;
+}
+
+.form {
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.signup {
+  margin-left: 96px;
+  min-width: 700px;
+  padding: 64px;
+  border: 2px solid #ccccd1;
+  border-radius: 30px;
+}
+
+@media (max-width: 1516px) {
+  .header {
+    padding: 240px 260px 360px;
+  }
+  .titletext {
+    font-size: 90px;
+  }
+  .healthtext1 {
+    font-size: 36px;
+  }
+  .healthtext2 {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 1372px) {
+  .introducetext1,
+  .introducetext2 {
+    font-size: 25px;
+  }
+  .form {
+    flex-direction: column;
+  }
+  .signup {
+    margin-top: 80px;
+    margin-left: 0;
+    min-width: 320px;
+    width: calc(100% - 120px);
+    padding: 20px;
+    border-radius: 16px;
+  }
+  .healthtext1 {
+    font-size: 34px;
+  }
+  .healthtext2 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1312px) {
+  .header {
+    padding: 150px 230px 230px;
+  }
+  .titletext {
+    font-size: 80px;
+  }
+  .phone {
+    display: none;
+  }
+  .healthtext1 {
+    font-size: 32px;
+  }
+  .healthtext2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1140px) {
+  .header {
+    padding: 150px 200px 120px;
+  }
+  .titletext {
+    font-size: 70px;
+  }
+  .personality {
+    display: none !important;
+  }
+  .founder {
+    flex-direction: column-reverse;
+  }
+  .founderintro {
+    border: none;
+  }
+  .introducetext1 {
+    text-align: center !important;
+  }
+  .healthimage {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header {
+    padding: 110px 160px 80px;
+  }
+  .titletext {
+    font-size: 62px;
+  }
+  .healthtext1 {
+    font-size: 24px;
+  }
+  .healthtext2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 912px) {
+  .header {
+    padding: 110px 160px 80px;
+  }
+  .titletext {
+    font-size: 58px;
+  }
+}
+
+@media (max-width: 810px) {
+  .header {
+    padding: 94px 150px 80px;
+  }
+  .titletext {
+    font-size: 48px;
+  }
+  .introduce {
+    padding: 32px 20px !important;
+  }
+}
+
+@media (max-width: 704px) {
+  .header {
+    padding: 52px 70px 80px;
+  }
+  .titletext {
+    font-size: 40px;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 568px) {
+  .header {
+    padding: 34px 54px 54px;
+  }
+  .titletext {
+    font-size: 25px;
+    max-width: 250px;
+  }
+  .introducetext1,
+  .introducetext2 {
+    font-size: 22px;
+  }
+  .founderintro {
+    padding: 10px 24px 0;
+  }
+}
